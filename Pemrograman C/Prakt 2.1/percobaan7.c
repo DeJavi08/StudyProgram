@@ -5,8 +5,7 @@ int main(void)
 {
     printf("[Percobaan nomor 7]\n");
 
-    float radius;
-    float luas_lingkaran;
+    float radius, luas_lingkaran;
 
     printf("Masukkan jari-jari lingkaran: ");
     scanf("%f", &radius);

@@ -14,10 +14,8 @@ int main(void)
     printf("Masukkan nilai c : ");
     scanf("%f", &c);
 
-    // Proses perhitungan diskriminan
     d = (b * b) - (4 * a * c);
 
-    // Menampilkan hasil
     printf("\nNilai Diskriminan (D) = %.2f\n", d);
 
     return 0;

@@ -4,15 +4,9 @@ int main(void)
 {
     float gaji_pokok;
     char status_pasangan;
-    int jumlah_anak;
-    int masa_kerja;
-    int hari_masuk;
+    int jumlah_anak, masa_kerja, hari_masuk;
 
-    float tunjangan_pasangan;
-    float tunjangan_anak;
-    float thr;
-    float bantuan_transport;
-    float pajak;
+    float tunjangan_pasangan, tunjangan_anak, thr, bantuan_transport, pajak;
     const float polis_asuransi = 20000.0f;
     float total_pendapatan;
 

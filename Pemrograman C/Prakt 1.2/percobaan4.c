@@ -2,9 +2,7 @@
 
 int main(void)
 {
-    int variable_1;
-    int variable_2;
-    int sum;
+    int variable_1, variable_2, sum;
 
     variable_1 = 10;
     variable_2 = 50;

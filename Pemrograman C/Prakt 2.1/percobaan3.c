@@ -2,8 +2,7 @@
 
 int main(void)
 {
-    int sisa_uang;
-    int rp100k, rp50k, rp20k, rp10k, rp5k, rp2k, rp1k;
+    int sisa_uang, rp100k, rp50k, rp20k, rp10k, rp5k, rp2k, rp1k;
     
     printf("[Percobaan nomor 3]\n");
     

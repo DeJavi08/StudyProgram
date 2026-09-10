@@ -2,8 +2,7 @@
 
 int main(void)
 {
-    float uang_dollar;
-    float uang_rupiah;
+    float uang_dollar, uang_rupiah;
 
     printf("[Percobaan nomor 2]\n");
 
