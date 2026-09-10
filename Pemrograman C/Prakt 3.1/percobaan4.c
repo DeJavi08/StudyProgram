@@ -29,7 +29,7 @@ int main() {
     }
 
     // Menentukan output menggunakan if...else
-    if prima == 1) {
+    if (prima == 1) {
         printf("%d adalah bilangan prima\n", x);
     } else {
         printf("%d bukan bilangan prima\n", x);
