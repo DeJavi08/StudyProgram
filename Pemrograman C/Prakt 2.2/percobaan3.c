@@ -3,7 +3,7 @@
 int main(void)
 {
     float gaji_pokok;
-    int status_pasangan;
+    char status_pasangan;
     int jumlah_anak;
     int masa_kerja;
     int hari_masuk;
@@ -16,13 +16,13 @@ int main(void)
     const float polis_asuransi = 20000.0f;
     float total_pendapatan;
 
-    printf("[Percobaan 3] Menghitung Pendapatan Karyawan");
+    puts("[Percobaan 3] Menghitung Pendapatan Karyawan");
 
-    printf("Masukkan gaji pook: Rp ");
+    printf("Masukkan gaji pokok: Rp ");
     scanf("%f", &gaji_pokok);
 
     printf("Apakah punya istri/suami? (y/n) : ");
-    scanf("%c", &status_pasangan);
+    scanf(" %c", &status_pasangan);
 
     printf("Masukkan jumlah anak: ");
     scanf("%d", &jumlah_anak);
@@ -34,9 +34,9 @@ int main(void)
 
     if(status_pasangan == 'y' || status_pasangan == 'Y')
     {
-        status_pasangan = 1.0f;
+        status_pasangan = 1;
     } else {
-        status_pasangan = 0.0f;
+        status_pasangan = 0;
     }
 
     tunjangan_pasangan = status_pasangan * (0.10f * gaji_pokok);
@@ -54,7 +54,7 @@ printf("\n================ RINCIAN PENDAPATAN ================\n");
     printf("THR                      : Rp %12.2f\n", thr);
     printf("Bantuan Transport        : Rp %12.2f\n", bantuan_transport);
     printf("----------------------------------------------------\n");
-    printf("Potongan Pajak (15%%)    : Rp %12.2f\n", pajak);
+    printf("Potongan Pajak (15%%)     : Rp %12.2f\n", pajak);
     printf("Polis Asuransi           : Rp %12.2f\n", polis_asuransi);
     printf("====================================================\n");
     printf("TOTAL PENDAPATAN BERSIH  : Rp %12.2f\n", total_pendapatan);
