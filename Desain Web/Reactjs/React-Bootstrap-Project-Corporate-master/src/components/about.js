@@ -8,8 +8,8 @@ import img1 from '../assets/images/img1.jpg';
 
 function AppAbout() {
   const html = 80;
-  const responsive = 95;
-  const photoshop = 60;
+  const flutter = 95;
+  const server = 60;
 
   return (
     <section id="about" className="block about-block">
@@ -20,22 +20,22 @@ function AppAbout() {
         </div>
         <Row>
           <Col sm={6}>
-            <Image src={img1} />
+            <Image src="https://www.insightplatforms.com/wp-content/uploads/2024/11/aha_corprate-logo_color.png" />
           </Col>
           <Col sm={6}>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit dicta veritatis sint quidem asperiores magni eaque praesentium temporibus, magnam, eveniet consequatur possimus nihil? Nemo deserunt repudiandae soluta neque doloribus, quo!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae alias ex error distinctio laudantium recusandae, iure. Vel nisi soluta, minus consectetur reiciendis laborum, laudantium perspiciatis quos molestias quam eum.</p>
-            <div className='progress-block'>
+            <p>Selamat datang di AHA TECH! Kami siap membantu Anda memiliki website yang menarik, cepat, dan mudah digunakan.</p>
+            <p>Dari landing page sederhana sampai sistem web kompleks, kami kerjakan dengan teliti dan tepat waktu. Kepuasan klien adalah prioritas kami.</p>
+              <div className='progress-block'>
               <h4>HTML / CSS / Javascript</h4>
               <ProgressBar now={html} label={`${html}%`} />
             </div>
             <div className='progress-block'>
-              <h4>responsive</h4>
-              <ProgressBar now={responsive} label={`${responsive}%`} />
+              <h4>Mobile App / Flutter</h4>
+              <ProgressBar now={flutter} label={`${flutter}%`} />
             </div>
             <div className='progress-block'>
-              <h4>Photoshop</h4>
-              <ProgressBar now={photoshop} label={`${photoshop}%`} />
+              <h4>SERVER / VPS</h4>
+              <ProgressBar now={server} label={`${server}%`} />
             </div>
           </Col>
         </Row>
