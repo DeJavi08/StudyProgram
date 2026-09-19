@@ -3,7 +3,7 @@
 int main(void)
 {
     float opn1, opn2, hasil;
-    int pilih;
+    int pilih, valid = 1;
     char opr;
 
     puts("Kalkulator Sederhana");
@@ -25,16 +25,18 @@ int main(void)
 
     if(pilih == 1) {
         hasil = opn1 + opn2;
-        printf("Hasil operasi tersebut = %f", hasil);
     } else if(pilih == 2) {
         hasil = opn1 - opn2;
-        printf("Hasil operasi tersebut = %f", hasil);
     } else if(pilih == 3) {
         hasil = opn1 / opn2;
-        printf("Hasil operasi tersebut = %f", hasil);
     } else if(pilih == 4) {
-        hasil = opn1 * opn2;
-        printf("Hasil operasi tersebut = %f", hasil);        
+        hasil = opn1 * opn2;    
+    } else {
+        valid = 0;
+    }
+
+    if(valid) {
+        printf("Hasil operasi tersebut = %f", hasil);   
     } else {
         printf("Pilihan anda salah");
     }
