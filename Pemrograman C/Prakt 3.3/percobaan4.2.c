@@ -11,7 +11,7 @@ int main(void){
         "2. Selasa\n"
         "3. Rabu\n"
         "4. Kamis\n"
-        "5. Jumat\n"
+        "5. Jum'at\n"
         "6. Sabtu\n"
         "7. Minggu\n"
     );
@@ -36,7 +36,7 @@ int main(void){
             break;
 
         case 5: 
-            hari = "Jumat"; 
+            hari = "Jum'at"; 
             break;
 
         case 6: 

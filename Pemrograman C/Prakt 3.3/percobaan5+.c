@@ -7,25 +7,20 @@ Menggunakan logika else-if
 #include <stdio.h>
 
 int main(void) {
-    int pelanggan;
-    int jumlah_lembar;
-    int harga_per_lembar;
-    int total_harga;
+    int pelanggan, jumlah_lembar, harga_per_lembar, total_harga;
 
     printf("Apakah Anda pelanggan? (1 = Ya, 0 = Tidak): ");
     scanf("%d", &pelanggan);
 
+    printf("Masukkan jumlah lembar fotokopi: ");
+    scanf("%d", &jumlah_lembar);
+
     if(pelanggan) {
         harga_per_lembar = 75;
-        printf("Masukkan jumlah lembar fotokopi: ");
-        scanf("%d", &jumlah_lembar);
     } else {
-        printf("Masukkan jumlah lembar fotokopi: ");
-        scanf("%d", &jumlah_lembar);
-
         if(jumlah_lembar < 100) {
             harga_per_lembar = 150;
-        } else if(jumlah_lembar >= 100 && jumlah_lembar <= 200) {
+        } else if(jumlah_lembar <= 200) {
             harga_per_lembar = 100;
         } else {
             harga_per_lembar = 80;

@@ -8,9 +8,7 @@ Menggunakan logika nested if-else
 
 int main(void) {
     int member;
-    float total_transaksi;
-    float persen_cashback;
-    float nominal_cashback;
+    float total_transaksi, persen_cashback, nominal_cashback;
 
     printf("Apakah Anda member? (1 = Ya, 0 = Tidak): ");
     scanf("%d", &member);
@@ -20,12 +18,12 @@ int main(void) {
 
     if (member) {
         if (total_transaksi >= 200000) {
-            persen_cashback = 15.0;
+            persen_cashback = 15.0f;
         } else {
-            persen_cashback = 5.0;
+            persen_cashback = 5.0f;
         }
     } else {
-        persen_cashback = 0.0;
+        persen_cashback = 0.0f;
     }
 
     nominal_cashback = (persen_cashback / 100.0) * total_transaksi;
