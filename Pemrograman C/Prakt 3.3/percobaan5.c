@@ -28,7 +28,7 @@ int main(void) {
         } else if(jumlah_lembar >= 100 && jumlah_lembar <= 200) {
             harga_per_lembar = 100;
         } else {
-            harga_per_lembar = 80;;
+            harga_per_lembar = 80;
         }
     }
 
