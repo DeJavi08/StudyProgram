@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define PHI 3.14f
 
 int main(void) {
     int pilih;
@@ -26,7 +27,7 @@ int main(void) {
         case 2:
         printf("Masukkan jari-jari lingkaran: ");
         scanf("%f", &radius);
-        hasil = 3.14 * radius * radius;
+        hasil = PHI * radius * radius;
         printf("Luas lingkaran = %.2f", hasil);
         break;
 
@@ -35,7 +36,7 @@ int main(void) {
         scanf("%f", &radius);
         printf("Masukkan tinggi silinder: ");
         scanf("%f", &h_silinder);
-        hasil = 3.14 * radius * radius * h_silinder;
+        hasil = PHI * radius * radius * h_silinder;
         printf("Volume silinder = %.2f", hasil);
         break;
 

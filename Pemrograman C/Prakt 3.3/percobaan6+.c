@@ -18,7 +18,6 @@ int main(void) {
     printf("Masukkan total transaksi: Rp ");
     scanf("%f", &total_transaksi);
 
-    // Struktur keputusan nested if-else
     if (member) {
         if (total_transaksi >= 200000) {
             persen_cashback = 15.0;
