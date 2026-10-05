@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(void) {
-    for (char c = 'Z'; c >= 'A'; c--) {
-        printf("%c\n", c);
+    for (char kar = 'Z'; kar >= 'A'; kar--) {
+        printf("%c\n", kar);
     }
 
     return 0;

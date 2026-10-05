@@ -2,17 +2,20 @@
 
 int main(void) {
     int bil;
-    int total = 0;
 
     puts("[Program Menghitung Bilangan Triangular]");
     printf("Masukkan bilangan: ");
     scanf("%d", &bil);
 
-    for (int i = bil; i > 0; i--) {
-        total += i;
-    }
+    printf("Bilangan triangular dari %d adalah : ", bil);
 
-    printf("Bilangan triangular dari %d adalah: %d\n", bil, total);
+    for (int i = bil; i > 0; i--) {
+        printf("%d", i);
+        
+        if (i > 1) {
+            printf(" + ");
+        }
+    }
 
     return 0;
 }
