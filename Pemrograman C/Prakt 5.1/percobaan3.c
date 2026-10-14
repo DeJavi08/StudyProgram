@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-float kuadrat(float)
+float kuadrat(float);
 
 int main(){
     float x, hasil;
     
     puts("Bilangan kuadrat");
-    printf("Masukkan bilangan:");
+    printf("Masukkan bilangan: ");
     scanf("%f", &x);
 
     hasil = kuadrat(x);
